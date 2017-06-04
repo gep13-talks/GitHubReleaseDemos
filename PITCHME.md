@@ -16,6 +16,12 @@ Web: http://www.gep13.co.uk
 
 #### What is Semantic Versioning?
 
++++
+
+#### A definition...
+
+"...simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on but not necessarily limited to pre-existing widespread common practices in use in both closed and open-source software."
+
 ---
 
 #### What branching strategy should I use?

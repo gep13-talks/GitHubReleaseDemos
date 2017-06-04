@@ -1,4 +1,4 @@
-## Control your GitHub releases with GitVersion and GitReleaseManager
+#### Control your GitHub releases with GitVersion and GitReleaseManager
 
 Gary Ewan Park
 
@@ -10,15 +10,15 @@ Web: http://www.gep13.co.uk
 
 ---
 
-## Agenda
+#### Agenda
 
 ---
 
-## What is Semantic Versioning?
+#### What is Semantic Versioning?
 
 +++
 
-## A definition...
+#### A definition...
 
 "...simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on but not necessarily limited to pre-existing widespread common practices in use in both closed and open-source software."
 

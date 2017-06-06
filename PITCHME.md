@@ -58,6 +58,17 @@ Additional labels for pre-release and build metadata are available as extensions
 
 #### What branching strategy should I use?
 
++++
+
+#### GitHub Flow
+
+- ![Create a branch](assets/images/githubflow.png)
+- ![Add commits](assets/images/githubflow_2.png) |
+- ![Open a Pull Request](assets/images/githubflow_3.png) |
+- ![Discuss and review your code](assets/images/githubflow_4.png)  |
+- ![Deploy](assets/images/githubflow_5.png) |
+- ![Merge](assets/images/githubflow_6.png) |
+
 ---
 
 #### What is GitVersion?

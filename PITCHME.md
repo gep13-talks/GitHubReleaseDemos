@@ -12,6 +12,14 @@ Web: http://www.gep13.co.uk
 
 #### Agenda
 
++++
+
+- What is Semantic Versioning?
+- What branching strategy should I use? |
+- What is GitVersion? |
+- Why do I need GitVersion?  |
+- What is GitReleaseManager? |
+
 ---
 
 #### What is Semantic Versioning?

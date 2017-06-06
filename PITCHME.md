@@ -22,6 +22,28 @@ Web: http://www.gep13.co.uk
 
 "...simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on but not necessarily limited to pre-existing widespread common practices in use in both closed and open-source software."
 
++++
+
+#### The rules
+
+Given a version number MAJOR.MINOR.PATCH, increment the:
+
+* MAJOR version when you make incompatible API changes
+* MINOR version when you add functionality in a backwards-compatible manner
+* PATCH version when you make backwards-compatible bug fixes
+
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
++++
+
+#### Examples
+
+- 0.1.0
+- 1.0.0 |
+- 0.3.13 |
+- 0.2.0-unstable3  |
+- 0.2.0-unstable.3+Branch.develop.Sha.e6eb071cd30974b80d7e237b85e7729a1d791e1e |
+
 ---
 
 #### What branching strategy should I use?

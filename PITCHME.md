@@ -58,9 +58,11 @@ Additional labels for pre-release and build metadata are available as extensions
 
 #### What branching strategy should I use?
 
-+++
+---
 
 #### GitHub Flow
+
++++
 
 Create a branch
 
@@ -95,6 +97,34 @@ Deploy
 Merge
 
 ![Merge](assets/images/githubflow_6.png)
+
+---
+
+#### GitFlow
+
+---
+
+Two Main Branches
+
+![Two Main Branches](assets/images/gitflow_4.png)
+
++++
+
+Feature Branches
+
+![Feature Branches](assets/images/githubflow_2.png)
+
++++
+
+Hotfix Branches
+
+![Hotfix Branches](assets/images/githubflow_3.png)
+
++++
+
+Overview
+
+![Overview](assets/images/githubflow.png)
 
 ---
 

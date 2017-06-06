@@ -1,4 +1,6 @@
-#### Control your GitHub releases with GitVersion and GitReleaseManager
+### Control your GitHub releases with GitVersion and GitReleaseManager
+
++++
 
 Gary Ewan Park
 

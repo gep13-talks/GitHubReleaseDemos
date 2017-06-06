@@ -42,6 +42,26 @@ Web: http://www.gep13.co.uk
 
 ---
 
+#### Why do I need GitVersion?
+
++++
+
+![Version Text File](assets/images/textfile.png)
+
++++
+
+![Assembly Info Files](assets/images/assemblyinfo.png)
+
++++
+
+![TeamCity Settings](assets/images/teamcitysetting.png)
+
++++
+
+?
+
+---
+
 #### What is GitReleaseManager?
 
 +++

@@ -62,12 +62,39 @@ Additional labels for pre-release and build metadata are available as extensions
 
 #### GitHub Flow
 
-- ![Create a branch](assets/images/githubflow.png)
-- ![Add commits](assets/images/githubflow_2.png) |
-- ![Open a Pull Request](assets/images/githubflow_3.png) |
-- ![Discuss and review your code](assets/images/githubflow_4.png)  |
-- ![Deploy](assets/images/githubflow_5.png) |
-- ![Merge](assets/images/githubflow_6.png) |
+Create a branch
+
+![Create a branch](assets/images/githubflow.png)
+
++++
+
+Add commits
+
+![Add commits](assets/images/githubflow_2.png)
+
++++
+
+Open a Pull Request
+
+![Open a Pull Request](assets/images/githubflow_3.png)
+
++++
+
+Discus and review your code
+
+![Discuss and review your code](assets/images/githubflow_4.png)
+
++++
+
+Deploy
+
+![Deploy](assets/images/githubflow_5.png)
+
++++
+
+Merge
+
+![Merge](assets/images/githubflow_6.png)
 
 ---
 

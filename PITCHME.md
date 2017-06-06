@@ -30,9 +30,29 @@ Web: http://www.gep13.co.uk
 
 #### What is GitVersion?
 
++++
+
+#### A defintion...
+
+"GitVersion is a tool to help you achieve Semantic Versioning on your project."
+
++++
+
+#### Ok, but really, what is it?
+
 ---
 
 #### What is GitReleaseManager?
+
++++
+
+#### A definition...
+
+"...is a tool that will help create a set of release notes for your application/product. It does this using the collection of issues which are stored on the GitHub Issue Tracker for your application/product."
+
++++
+
+#### Ok, but really, what is it?
 
 ---
 

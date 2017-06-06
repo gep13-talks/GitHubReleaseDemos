@@ -102,7 +102,7 @@ Merge
 
 #### GitFlow
 
----
++++
 
 Two Main Branches
 
@@ -112,19 +112,19 @@ Two Main Branches
 
 Feature Branches
 
-![Feature Branches](assets/images/githubflow_2.png)
+![Feature Branches](assets/images/gitflow_2.png)
 
 +++
 
 Hotfix Branches
 
-![Hotfix Branches](assets/images/githubflow_3.png)
+![Hotfix Branches](assets/images/gitflow_3.png)
 
 +++
 
 Overview
 
-![Overview](assets/images/githubflow.png)
+![Overview](assets/images/gitflow.png)
 
 ---
 

@@ -12,7 +12,7 @@ Web: http://www.gep13.co.uk
 
 ---
 
-#### Agenda
+### Agenda
 
 +++
 
@@ -21,21 +21,21 @@ Web: http://www.gep13.co.uk
 - What is GitVersion? |
 - Why do I need GitVersion?  |
 - What is GitReleaseManager? |
-- Putting it all together...
+- Putting it all together... |
 
 ---
 
-#### What is Semantic Versioning?
+### What is Semantic Versioning?
 
 +++
 
-#### A definition...
+### A definition...
 
 "...simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on, but not necessarily limited to, pre-existing widespread common practices in use in both closed and open-source software."
 
 +++
 
-#### The rules
+### The rules
 
 Given a version number MAJOR.MINOR.PATCH, increment the:
 
@@ -47,7 +47,7 @@ Additional labels for pre-release and build metadata are available as extensions
 
 +++
 
-#### Examples
+### Examples
 
 - 0.1.0
 - 1.0.0 |
@@ -57,11 +57,11 @@ Additional labels for pre-release and build metadata are available as extensions
 
 ---
 
-#### What branching strategy should I use?
+### What branching strategy should I use?
 
 ---
 
-#### GitHub Flow
+### GitHub Flow
 
 +++
 
@@ -101,7 +101,7 @@ Merge
 
 ---
 
-#### GitFlow
+### GitFlow
 
 +++
 
@@ -129,21 +129,21 @@ Overview
 
 ---
 
-#### What is GitVersion?
+### What is GitVersion?
 
 +++
 
-#### A defintion...
+### A defintion...
 
 "GitVersion is a tool to help you achieve Semantic Versioning on your project."
 
 +++
 
-#### Ok, but really, what is it?
+### Ok, but really, what is it?
 
 ---
 
-#### Why do I need GitVersion?
+### Why do I need GitVersion?
 
 +++
 
@@ -163,25 +163,25 @@ Overview
 
 ---
 
-#### What is GitReleaseManager?
+### What is GitReleaseManager?
 
 +++
 
-#### A definition...
+### A definition...
 
 "...is a tool that will help create a set of release notes for your application/product. It does this using the collection of issues which are stored on the GitHub Issue Tracker for your application/product."
 
 +++
 
-#### Ok, but really, what is it?
+### Ok, but really, what is it?
 
 ---
 
-#### Putting it all together
+### Putting it all together
 
 ---
 
-#### Questions?
+### Questions?
 
 Feel free to get in touch
 
@@ -193,7 +193,7 @@ Web: http://www.gep13.co.uk
 
 ---
 
-#### Resources
+### Resources
 
 * GitVersion Documentation
   * http://gitversion.readthedocs.org/en/latest/

@@ -83,7 +83,7 @@ Open a Pull Request
 
 +++
 
-Discus and review your code
+Discuss and review your code
 
 ![Discuss and review your code](assets/images/githubflow_4.png)
 
@@ -135,7 +135,7 @@ Overview
 
 ### A defintion...
 
-"GitVersion is a tool to help you achieve Semantic Versioning on your project."
+"...is a tool to help you achieve Semantic Versioning on your project."
 
 +++
 
@@ -159,7 +159,7 @@ Overview
 
 +++
 
-?
+## ?
 
 ---
 

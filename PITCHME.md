@@ -21,6 +21,7 @@ Web: http://www.gep13.co.uk
 - What is GitVersion? |
 - Why do I need GitVersion?  |
 - What is GitReleaseManager? |
+- Putting it all together...
 
 ---
 
@@ -30,7 +31,7 @@ Web: http://www.gep13.co.uk
 
 #### A definition...
 
-"...simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on but not necessarily limited to pre-existing widespread common practices in use in both closed and open-source software."
+"...simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on, but not necessarily limited to, pre-existing widespread common practices in use in both closed and open-source software."
 
 +++
 
@@ -173,6 +174,10 @@ Overview
 +++
 
 #### Ok, but really, what is it?
+
+---
+
+#### Putting it all together
 
 ---
 

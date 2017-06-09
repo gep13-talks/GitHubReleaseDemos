@@ -197,7 +197,11 @@ Web: http://www.gep13.co.uk
 
 ---
 
+<<<<<<< HEAD
 ### Thank you!
+=======
+### Sponsors - Thank you!
+>>>>>>> develop
 
 ![Sponsors](assets/images/sponsors.png)
 

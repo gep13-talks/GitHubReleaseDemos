@@ -71,11 +71,15 @@ Create a branch
 
 ![Create a branch](assets/images/githubflow.png)
 
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">GitHub Flow Tutorial</a></span>
+
 +++
 
 Add commits
 
 ![Add commits](assets/images/githubflow_2.png)
+
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">GitHub Flow Tutorial</a></span>
 
 +++
 
@@ -83,11 +87,15 @@ Open a Pull Request
 
 ![Open a Pull Request](assets/images/githubflow_3.png)
 
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">GitHub Flow Tutorial</a></span>
+
 +++
 
 Discuss and review your code
 
 ![Discuss and review your code](assets/images/githubflow_4.png)
+
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">GitHub Flow Tutorial</a></span>
 
 +++
 
@@ -95,11 +103,15 @@ Deploy
 
 ![Deploy](assets/images/githubflow_5.png)
 
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">GitHub Flow Tutorial</a></span>
+
 +++
 
 Merge
 
 ![Merge](assets/images/githubflow_6.png)
+
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">GitHub Flow Tutorial</a></span>
 
 ---
 
@@ -111,11 +123,15 @@ Two Main Branches
 
 ![Two Main Branches](assets/images/gitflow_4.png)
 
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">A successful Git branching model</a> blog post</span>
+
 +++
 
 Feature Branches
 
 ![Feature Branches](assets/images/gitflow_2.png)
+
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">A successful Git branching model</a> blog post</span>
 
 +++
 
@@ -123,11 +139,15 @@ Hotfix Branches
 
 ![Hotfix Branches](assets/images/gitflow_3.png)
 
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">A successful Git branching model</a> blog post</span>
+
 +++
 
 Overview
 
 ![Overview](assets/images/gitflow.png)
+
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">A successful Git branching model</a> blog post</span>
 
 ---
 

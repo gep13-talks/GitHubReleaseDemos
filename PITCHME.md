@@ -1,4 +1,4 @@
-### Control your GitHub releases with GitVersion and GitReleaseManager
+## Control your GitHub releases with GitVersion and GitReleaseManager
 
 +++
 
@@ -14,7 +14,7 @@ Web: http://www.gep13.co.uk
 
 ---
 
-### Agenda
+## Agenda
 
 +++
 
@@ -27,7 +27,7 @@ Web: http://www.gep13.co.uk
 
 ---
 
-### What is Semantic Versioning?
+## What is Semantic Versioning?
 
 +++
 
@@ -59,11 +59,11 @@ Additional labels for pre-release and build metadata are available as extensions
 
 ---
 
-### What branching strategy should I use?
+## What branching strategy should I use?
 
 ---
 
-### GitHub Flow
+## GitHub Flow
 
 +++
 
@@ -103,7 +103,7 @@ Merge
 
 ---
 
-### GitFlow
+## GitFlow
 
 +++
 
@@ -131,7 +131,7 @@ Overview
 
 ---
 
-### What is GitVersion?
+## What is GitVersion?
 
 +++
 
@@ -145,7 +145,7 @@ Overview
 
 ---
 
-### Why do I need GitVersion?
+## Why do I need GitVersion?
 
 +++
 
@@ -165,7 +165,7 @@ Overview
 
 ---
 
-### What is GitReleaseManager?
+## What is GitReleaseManager?
 
 +++
 
@@ -179,7 +179,7 @@ Overview
 
 ---
 
-### Putting it all together...
+## Putting it all together...
 
 +++
 
@@ -187,7 +187,7 @@ Overview
 
 ---
 
-### Questions?
+## Questions?
 
 Feel free to get in touch
 
@@ -201,13 +201,13 @@ Web: http://www.gep13.co.uk
 
 ---
 
-### Sponsors - Thank you!
+## Thank you!
 
 ![Sponsors](assets/images/sponsors.png)
 
 ---
 
-### Resources
+## Resources
 
 * GitVersion Documentation
   * http://gitversion.readthedocs.org/en/latest/

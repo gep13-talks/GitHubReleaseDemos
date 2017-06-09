@@ -197,7 +197,7 @@ Web: http://www.gep13.co.uk
 
 ---
 
-### Sponsors - Thank you!
+### Thank you!
 
 ![Sponsors](assets/images/sponsors.png)
 

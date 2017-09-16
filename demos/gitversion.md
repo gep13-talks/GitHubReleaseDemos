@@ -12,14 +12,14 @@
 
 ### Demo 2 - Feature Branch
 
-* Create a feature branch `git checkout -b feature/ddd12 master`
+* Create a feature branch `git checkout -b feature/ddd12 develop`
 * Run GitVersion, note how it now knows we are on a feature branch
 * Make a commit
 * Run GitVersion again, show again how it is tracking the version number
 
 ### Demo 3 - Release Branch
 
-* Create a release branch `git checkout -b release/0.1.0 master`
+* Create a release branch `git checkout -b release/0.1.0 develop`
 * Run GitVersion, not how it now knows we are on a release branch
 * Make a commit
 * Run GitVersion again, show again how it is tracking the version number

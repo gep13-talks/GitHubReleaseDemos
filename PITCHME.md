@@ -121,7 +121,7 @@ Two Main Branches
 
 ![Two Main Branches](assets/images/gitflow_4.png)
 
-<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">A successful Git branching model</a> blog post</span>
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
 
 +++
 
@@ -129,7 +129,7 @@ Feature Branches
 
 ![Feature Branches](assets/images/gitflow_2.png)
 
-<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">A successful Git branching model</a> blog post</span>
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
 
 +++
 
@@ -137,7 +137,7 @@ Hotfix Branches
 
 ![Hotfix Branches](assets/images/gitflow_3.png)
 
-<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">A successful Git branching model</a> blog post</span>
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
 
 +++
 
@@ -145,7 +145,7 @@ Overview
 
 ![Overview](assets/images/gitflow.png)
 
-<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://guides.github.com/introduction/flow/" target="_blank">A successful Git branching model</a> blog post</span>
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
 
 ---
 

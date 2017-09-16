@@ -10,8 +10,6 @@ Twitter: @gep13
 
 Web: http://www.gep13.co.uk
 
-![Company Logo](assets/images/dai.png)
-
 ---
 
 ## Agenda
@@ -216,8 +214,6 @@ Email: gep13@gep13.co.uk
 Twitter: @gep13
 
 Web: http://www.gep13.co.uk
-
-![Company Logo](assets/images/dai.png)
 
 ---
 

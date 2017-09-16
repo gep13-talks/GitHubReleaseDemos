@@ -1,5 +1,5 @@
 #tool nuget:?package=gitreleasemanager&version=0.5.0
-#tool nuget:?package=GitVersion.CommandLine&version=3.6.5
+#tool nuget:?package=GitVersion.CommandLine&version=4.0.0-beta0012&prerelease
 
 var target = Argument("target", "Default");
 GitVersion assertedVersions;

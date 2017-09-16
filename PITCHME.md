@@ -141,6 +141,14 @@ Hotfix Branches
 
 +++
 
+Release Branches
+
+![Release Branches](assets/images/gitflow_5.png)
+
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
+
++++
+
 Overview
 
 ![Overview](assets/images/gitflow.png)

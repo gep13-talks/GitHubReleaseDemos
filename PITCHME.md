@@ -225,12 +225,6 @@ Web: http://www.gep13.co.uk
 
 ---
 
-## Thank you!
-
-![Sponsors](assets/images/sponsors.png)
-
----
-
 ## Resources
 
 * GitVersion Documentation

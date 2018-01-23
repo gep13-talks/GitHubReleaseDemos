@@ -13,7 +13,3 @@ and a video recording of the session here:
 It was also presented at DDD East Anglia on 16th September 2017.  You can find the slides here:
 
 [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gep13/GitHubReleaseDemos/dddeastanglia2017)
-
-and a video recording of the session here:
-
-// TODO: Put link to video here

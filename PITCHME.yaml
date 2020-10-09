@@ -1,2 +1,33 @@
-theme : beige
-theme-override : assets/css/PITCHME.css
+#
+# The Template Settings
+#
+# The default settings below are optimized for this template.
+# Override settings with your own custom values as needed.
+#
+# For further details, see https://gitpitch.com/docs/settings.
+#
+
+published : true
+
+#
+# Theme Setting
+# Doc: https://gitpitch.com/docs/settings/theme
+#
+theme : template
+theme-headline : [ "Raleway", "#111111", "none"]
+
+#
+# Footnote Setting
+# Doc: https://gitpitch.com/docs/settings/footnote
+#
+footnote : "@gep13"
+
+#
+# Highlight (Code) Setting
+# Doc: https://gitpitch.com/docs/settings/highlight
+#
+highlight : vs
+
+gatoken : UA-20926037-2
+
+remote-control : true

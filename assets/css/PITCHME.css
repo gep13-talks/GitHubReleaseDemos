@@ -1,3 +1,25 @@
-.reveal {
-    font-size: 30px;
+.bio image {
+  width: 30%;
+}
+
+.bio-name {
+  text-align: center;
+}
+
+.bio-contact {
+  color: white;
+  font-size: 0.6em !important;
+  font-weight: bolder !important;
+}
+
+.twitter-blue {
+  color: #00aced;
+}
+
+.choco-blue {
+  color: #80B5E3;
+}
+
+.fa-pad-icon {
+  padding: .8em 0 0.5em 0;
 }

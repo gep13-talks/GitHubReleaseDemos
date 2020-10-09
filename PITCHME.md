@@ -26,7 +26,7 @@
 
 ## Agenda
 
-+++
+---
 @title[Agenda List]
 
 @ul[drag=100, fit=1.5, list-spaced-sm-bullets]
@@ -57,7 +57,7 @@ Note:
 
 ## Sematic Versioning @fa[question]
 
-+++
+---
 @title[Semantic Versioning Explained]
 
 [drag=30 100, drop=left, bg=lightblue, set=h1-white]
@@ -76,7 +76,7 @@ Note:
 - Loaded topic - large discussion
 - Not going into the details
 
-+++
+---
 @title[The Rules]
 
 [drag=100 15, drop=top]
@@ -99,7 +99,7 @@ Note:
 - What has changed since the last version
 - Not going to talk about how to know when to bump individual parts of the version number
 
-+++
+---
 @title[Semantic Versioning Examples]
 
 [drag=100 15, drop=top]
@@ -135,7 +135,7 @@ Note:
 
 ## GitHub Flow
 
-+++
+---
 @title[GitHub Flow Explained]
 
 @ul[drag=100 10, drop=top, sync=true, list-squash-bullets]
@@ -164,7 +164,7 @@ Images borrowed from the [GitHub Flow Tutorial](https://guides.github.com/introd
 
 ## GitFlow
 
-+++
+---
 @title[GitFlow Explained]
 
 [drag=100 10, drop=top]
@@ -202,7 +202,7 @@ Images borrowed from the [A successful git branching model](https://nvie.com/pos
 
 ## @css[text-gold text-bold](GitVersion )@fa[question]
 
-+++
+---
 @title[GitVersion Explained]
 
 [drag=30 100, drop=left, bg=lightblue, set=h1-white]
@@ -216,7 +216,14 @@ Q. What is GitVersion?
 
 @fa[quote-left]...is a tool to help you achieve Semantic Versioning on your project.
 
-+++
+Note:
+
+- .Net Framework
+- .Net Global Tool
+- GitHub Action
+- Doesn't help you decide when a version number need to change
+
+---
 @title[What is GitVersion really]
 
 ### Ok, but really, what is it?
@@ -234,27 +241,20 @@ Q. What is GitVersion?
 
 ## @css[text-gold text-bold](GitVersion )@fa[question]
 
-Note:
-
-- .Net Framework
-- .Net Global Tool
-- GitHub Action
-- Doesn't help you decide when a version number need to change
-
-+++
+---
 @title[GitVersion Reasons]
 
 [drag=100, stretch=true, pad=100]
 
 ![Version Text File](assets/images/textfile.png)
 
-+++
+---
 
 [drag=100, stretch=true, pad=100]
 
 ![Assembly Info Files](assets/images/assemblyinfo.png)
 
-+++
+---
 
 [drag=100, stretch=true, pad=100]
 
@@ -264,7 +264,7 @@ Note:
 
 - This couple you to a CI system
 
-+++
+---
 
 [drag=100, fit=7]
 # ?
@@ -286,7 +286,7 @@ Note:
 
 ## @css[text-gold text-bold](GitReleaseManager )@fa[question]
 
-+++
+---
 @title[GitReleaseManager Explained]
 
 [drag=30 100, drop=left, bg=lightblue, set=h1-white]
@@ -304,7 +304,7 @@ Note:
 
 - Started out as a tool from Particular
 
-+++
+---
 @title[What is GitReleaseManager really]
 
 ## Ok, but really, what is it?
@@ -321,7 +321,7 @@ Note:
 
 ## Putting it all together...
 
-+++?color=beige
+---?color=beige
 @title[Demo]
 
 [drag=100, fit=3.3]
@@ -371,7 +371,7 @@ Senior Software Engineer @<br> Chocolatey Software
 
 Gary Ewan Park
 
-+++
+---
 @title[Learn More]
 
 [drag=100 30, drop=top]

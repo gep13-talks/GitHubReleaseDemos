@@ -31,7 +31,7 @@ Task("CreateReleaseNotes")
     .IsDependentOn("RunGitVersion")
     .Does(() =>
 {
-    GitReleaseManagerCreate(username, password, "gep13", "GitHubReleaseDemos", new GitReleaseManagerCreateSettings {
+    GitReleaseManagerCreate(username, password, "gep13-talks", "GitHubReleaseDemos", new GitReleaseManagerCreateSettings {
         Milestone         = assertedVersions.SemVer,
         Name              = assertedVersions.SemVer,
         Prerelease        = false,
@@ -46,7 +46,7 @@ Task("AttachArtifact")
     GitReleaseManagerAddAssets(
         username,
         password,
-        "gep13",
+        "gep13-talks",
         "GitHubReleaseDemos",
         assertedVersions.SemVer,
         MakeAbsolute(File("./LICENSE")).FullPath);
@@ -59,7 +59,7 @@ Task("CloseMilestone")
     GitReleaseManagerClose(
         username,
         password,
-        "gep13",
+        "gep13-talks",
         "GitHubReleaseDemos",
         assertedVersions.SemVer);
 });

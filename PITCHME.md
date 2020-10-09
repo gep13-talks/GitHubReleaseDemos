@@ -38,6 +38,12 @@
 - Putting it all together...
 @ul
 
+Note:
+
+- Fundamental principal - traceability
+  - What version number does it have
+  - What issues/pull requests are associated with it
+
 ---
 @title[What is Semantic Versioning?]
 
@@ -52,7 +58,7 @@
 ## Sematic Versioning @fa[question]
 
 +++
-@tile[Semantic Versioning Explained]
+@title[Semantic Versioning Explained]
 
 [drag=30 100, drop=left, bg=lightblue, set=h1-white]
 
@@ -64,6 +70,11 @@ Q. What is Semantic Versioning?
 [drag=70 70, drop=right, pad=80px, fit=1.45]
 
 @fa[quote-left] ...simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on, but not necessarily limited to, pre-existing widespread common practices in use in both closed and open-source software.
+
+Note:
+
+- Loaded topic - large discussion
+- Not going into the details
 
 +++
 @title[The Rules]
@@ -82,6 +93,12 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 
 Additional labels for pre-release and build metadata are available<br> as extensions to the MAJOR.MINOR.PATCH format.
 
+Note:
+
+- A semantic version number expresses the intention of the release
+- What has changed since the last version
+- Not going to talk about how to know when to bump individual parts of the version number
+
 +++
 @title[Semantic Versioning Examples]
 
@@ -90,8 +107,8 @@ Additional labels for pre-release and build metadata are available<br> as extens
 
 @ul[drag=100 85, drop=0 15]
 - 0.1.0
-- 1.0.0
 - 0.3.13
+- 1.0.0
 - 0.2.0-unstable3
 - @size[0.8em](0.2.0-unstable.3+Branch.develop.Sha.e6eb071cd30974b80d7e237b85e7729a1d791e1e)
 @ul
@@ -108,6 +125,10 @@ Additional labels for pre-release and build metadata are available<br> as extens
 #### What
 ## @css[text-gold text-bold](branching strategy )
 ### should I use@fa[question]
+
+Note:
+
+- Again a loaded topic
 
 ---
 @title[GitHub Flow]
@@ -213,6 +234,13 @@ Q. What is GitVersion?
 
 ## @css[text-gold text-bold](GitVersion )@fa[question]
 
+Note:
+
+- .Net Framework
+- .Net Global Tool
+- GitHub Action
+- Doesn't help you decide when a version number need to change
+
 +++
 @title[GitVersion Reasons]
 
@@ -232,13 +260,21 @@ Q. What is GitVersion?
 
 ![TeamCity Settings](assets/images/teamcitysetting.png)
 
+Note:
+
+- This couple you to a CI system
+
 +++
 
 [drag=100, fit=7]
 # ?
 
+Note:
+
+- No idea what the version number is
+
 ---
-@title[Why do I need GitReleaseManager]
+@title[What is GitReleaseManager]
 
 [drag=30 100, drop=left, bg=black, set=h1-white]
 
@@ -246,7 +282,7 @@ Q. What is GitVersion?
 
 [drag=70 25, drop=right]
 
-#### Why do I need
+#### What is
 
 ## @css[text-gold text-bold](GitReleaseManager )@fa[question]
 
@@ -264,10 +300,20 @@ Q. What is GitReleaseManager?
 
 @fa[quote-left]...is a tool that will help create a set of release notes for your application/product. It does this using the collection of issues which are stored on the GitHub Issue Tracker for your application/product.
 
+Note:
+
+- Started out as a tool from Particular
+
 +++
 @title[What is GitReleaseManager really]
 
 ## Ok, but really, what is it?
+
+Note:
+
+- .Net Framework
+- .Net Global Tool
+- GitHub Action
 
 ---
 

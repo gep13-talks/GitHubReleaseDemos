@@ -27,6 +27,7 @@
 ## Agenda
 
 +++
+@title[Agenda List]
 
 @ul[drag=100, fit=1.5, list-spaced-sm-bullets]
 - What is Semantic Versioning?
@@ -38,6 +39,7 @@
 @ul
 
 ---
+@title[What is Semantic Versioning?]
 
 [drag=30 100, drop=left, bg=black, set=h1-white]
 
@@ -50,6 +52,7 @@
 ## Sematic Versioning @fa[question]
 
 +++
+@tile[Semantic Versioning Explained]
 
 [drag=30 100, drop=left, bg=lightblue, set=h1-white]
 
@@ -63,6 +66,8 @@ Q. What is Semantic Versioning?
 @fa[quote-left] ...simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on, but not necessarily limited to, pre-existing widespread common practices in use in both closed and open-source software.
 
 +++
+@title[The Rules]
+
 [drag=100 15, drop=top]
 
 ### The rules
@@ -78,6 +83,7 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 Additional labels for pre-release and build metadata are available<br> as extensions to the MAJOR.MINOR.PATCH format.
 
 +++
+@title[Semantic Versioning Examples]
 
 [drag=100 15, drop=top]
 ### Examples
@@ -91,6 +97,7 @@ Additional labels for pre-release and build metadata are available<br> as extens
 @ul
 
 ---
+@title[What branching strategy should I use?]
 
 [drag=30 100, drop=left, bg=black, set=h1-white]
 
@@ -103,10 +110,12 @@ Additional labels for pre-release and build metadata are available<br> as extens
 ### should I use@fa[question]
 
 ---
+@title[GitHub Flow]
 
 ## GitHub Flow
 
 +++
+@title[GitHub Flow Explained]
 
 @ul[drag=100 10, drop=top, sync=true, list-squash-bullets]
 - #### Create a branch
@@ -130,10 +139,12 @@ Additional labels for pre-release and build metadata are available<br> as extens
 Images borrowed from the [GitHub Flow Tutorial](https://guides.github.com/introduction/flow/)
 
 ---
+@title[GitFlow]
 
 ## GitFlow
 
 +++
+@title[GitFlow Explained]
 
 [drag=100 10, drop=top]
 
@@ -158,6 +169,7 @@ Images borrowed from the [GitHub Flow Tutorial](https://guides.github.com/introd
 Images borrowed from the [A successful git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 
 ---
+@title[What is GitVersion]
 
 [drag=30 100, drop=left, bg=black, set=h1-white]
 
@@ -170,6 +182,7 @@ Images borrowed from the [A successful git branching model](https://nvie.com/pos
 ## @css[text-gold text-bold](GitVersion )@fa[question]
 
 +++
+@title[GitVersion Explained]
 
 [drag=30 100, drop=left, bg=lightblue, set=h1-white]
 
@@ -183,10 +196,12 @@ Q. What is GitVersion?
 @fa[quote-left]...is a tool to help you achieve Semantic Versioning on your project.
 
 +++
+@title[What is GitVersion really]
 
 ### Ok, but really, what is it?
 
 ---
+@title[Why do I need GitVersion]
 
 [drag=30 100, drop=left, bg=black, set=h1-white]
 
@@ -199,6 +214,7 @@ Q. What is GitVersion?
 ## @css[text-gold text-bold](GitVersion )@fa[question]
 
 +++
+@title[GitVersion Reasons]
 
 [drag=100, stretch=true, pad=100]
 
@@ -217,10 +233,12 @@ Q. What is GitVersion?
 ![TeamCity Settings](assets/images/teamcitysetting.png)
 
 +++
+
 [drag=100, fit=7]
 # ?
 
 ---
+@title[Why do I need GitReleaseManager]
 
 [drag=30 100, drop=left, bg=black, set=h1-white]
 
@@ -233,6 +251,7 @@ Q. What is GitVersion?
 ## @css[text-gold text-bold](GitReleaseManager )@fa[question]
 
 +++
+@title[GitReleaseManager Explained]
 
 [drag=30 100, drop=left, bg=lightblue, set=h1-white]
 
@@ -246,20 +265,23 @@ Q. What is GitReleaseManager?
 @fa[quote-left]...is a tool that will help create a set of release notes for your application/product. It does this using the collection of issues which are stored on the GitHub Issue Tracker for your application/product.
 
 +++
+@title[What is GitReleaseManager really]
 
 ## Ok, but really, what is it?
 
 ---
 
+@title[Putting it all together]
+
 ## Putting it all together...
 
 +++?color=beige
+@title[Demo]
 
 [drag=100, fit=3.3]
 # DEMO
 
 ---
-
 @title[Questions]
 
 [drag=100 50]
@@ -304,7 +326,6 @@ Senior Software Engineer @<br> Chocolatey Software
 Gary Ewan Park
 
 +++
-
 @title[Learn More]
 
 [drag=100 30, drop=top]

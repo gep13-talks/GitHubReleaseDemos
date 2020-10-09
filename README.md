@@ -2,7 +2,7 @@
 
 This repository contains the slides and scripts associated with my presentation entitled `Control your GitHub Releases with GitVersion and GitReleaseManager`.
 
-This latest version of this presentation can be found here [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gep13-talks/master)
+This latest version of this presentation can be found here [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gep13-talks/GitHubReleaseDemos/master)
 
 This talk was first presented at [DDD Reading](https://developerdeveloperdeveloper.com/) on the 10th June 2017.  You can find the slides here:
 

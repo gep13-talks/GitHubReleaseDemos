@@ -291,3 +291,5 @@ __pycache__/
 tools/
 BuildArtifacts/
 *.temp.nuspec
+
+.DS_Store

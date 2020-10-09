@@ -169,7 +169,7 @@ Two Main Branches
 
 ![Two Main Branches](assets/images/gitflow_4.png)
 
-<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
 
 +++
 
@@ -179,7 +179,7 @@ Feature Branches
 
 ![Feature Branches](assets/images/gitflow_2.png)
 
-<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
 
 +++
 
@@ -189,7 +189,7 @@ Hotfix Branches
 
 ![Hotfix Branches](assets/images/gitflow_3.png)
 
-<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
 
 +++
 
@@ -199,7 +199,7 @@ Release Branches
 
 ![Release Branches](assets/images/gitflow_5.png)
 
-<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
 
 +++
 
@@ -209,7 +209,7 @@ Overview
 
 ![Overview](assets/images/gitflow.png)
 
-<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
+<span style="color:gray; font-size:0.5em">Image borrowed from the <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank">A successful Git branching model</a> blog post</span>
 
 ---
 
@@ -363,12 +363,12 @@ Gary Ewan Park
 @ul[text-08](false)
 
 - GitVersion Documentation
-  - http://gitversion.readthedocs.org/en/latest/
+  - https://gitversion.net/docs/
 - .Net Rocks Episode with Jake Ginnivan
   - https://www.dotnetrocks.com/default.aspx?showNum=1178
 - Git Branching Strategies
   - https://www.atlassian.com/git/tutorials/comparing-workflows
 - GitFlow
-  - http://nvie.com/posts/a-successful-git-branching-model/
+  - https://nvie.com/posts/a-successful-git-branching-model/
 
 @ulend

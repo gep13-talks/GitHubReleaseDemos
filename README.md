@@ -8,7 +8,7 @@ This talk was first presented at [DDD Reading](https://developerdeveloperdevelop
 
 and a video recording of the session here:
 
-[![Control your GitHub Releases with GitVersion and GitReleaseManager](http://img.youtube.com/vi/SlM02V1tkSc/0.jpg)](http://www.youtube.com/watch?v=SlM02V1tkSc)
+[![Control your GitHub Releases with GitVersion and GitReleaseManager](https://img.youtube.com/vi/SlM02V1tkSc/0.jpg)](https://www.youtube.com/watch?v=SlM02V1tkSc)
 
 It was also presented at [DDD East Anglia](https://www.dddeastanglia.com/) on 16th September 2017.  You can find the slides here:
 

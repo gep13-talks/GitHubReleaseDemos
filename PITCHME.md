@@ -12,13 +12,13 @@
 
 ## Slides
 
-#### http://gep13.me/GitHubReleasesSlides
+#### https://gep13.me/GitHubReleasesSlides
 
 @fa[plus-square fa-2x fa-pad-icon text-gold]
 
 ## Code
 
-#### http://gep13.me/GitHubReleasesCode
+#### https://gep13.me/GitHubReleasesCode
 
 ---
 @title[Agenda]

@@ -4,14 +4,12 @@
 
 var target = Argument("target", "Default");
 GitVersion assertedVersions;
-var username = "";
-var password = "";
+var token = "";
 
 Task("GetCredentials")
     .Does(() =>
 {
-    username = EnvironmentVariable("GITHUB_USERNAME_DEMO");
-    password = EnvironmentVariable("GITHUB_PASSWORD_DEMO");
+    token = EnvironmentVariable("GITHUB_TOKEN_DEMO");
 });
 
 Task("RunGitVersion")
@@ -31,7 +29,7 @@ Task("CreateReleaseNotes")
     .IsDependentOn("RunGitVersion")
     .Does(() =>
 {
-    GitReleaseManagerCreate(username, password, "gep13-talks", "GitHubReleaseDemos", new GitReleaseManagerCreateSettings {
+    GitReleaseManagerCreate(token, "gep13-talks", "GitHubReleaseDemos", new GitReleaseManagerCreateSettings {
         Milestone         = assertedVersions.SemVer,
         Name              = assertedVersions.SemVer,
         Prerelease        = false,
@@ -44,8 +42,7 @@ Task("AttachArtifact")
     .Does(() =>
 {
     GitReleaseManagerAddAssets(
-        username,
-        password,
+        token,
         "gep13-talks",
         "GitHubReleaseDemos",
         assertedVersions.SemVer,
@@ -57,8 +54,7 @@ Task("CloseMilestone")
     .Does(() =>
 {
     GitReleaseManagerClose(
-        username,
-        password,
+        token,
         "gep13-talks",
         "GitHubReleaseDemos",
         assertedVersions.SemVer);

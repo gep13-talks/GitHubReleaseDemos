@@ -24,6 +24,9 @@ jobs:
       - name: Ensure build dir exists
         run: mkdir -p build
 
+      - name: Ensure build assets directory exists
+        run: mkdir -p build/assets
+
       - name: Copy images directory (if exists)
         run: if [[ -d assets/images ]]; then cp -R assets/images build/assets/images; fi
 

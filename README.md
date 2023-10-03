@@ -1,19 +1,23 @@
 # GitHub Release Demos
 
-This repository contains the slides and scripts associated with my presentation entitled `Control your GitHub Releases with GitVersion and GitReleaseManager'.
+This repository contains the slides and scripts associated with my presentation entitled `Control your GitHub Releases with GitVersion and GitReleaseManager`.
 
-This talk was first presented at DDD Reading on the 10th June 2017.  You can find the slides here:
+## Latest Version
 
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gep13/GitHubReleaseDemos/ddd12)
+The slides for the most recent version of this talk can be found [here](https://gep13-talks.github.io/GitHubReleaseDemos/).
 
-and a video recording of the session here:
+## Presentations
 
-[![Control your GitHub Releases with GitVersion and GitReleaseManager](http://img.youtube.com/vi/SlM02V1tkSc/0.jpg)](http://www.youtube.com/watch?v=SlM02V1tkSc)
+Originally, this presentation was rendered using the GitPitch presentation system, however, this system is no longer available. The tags for the various versions of the presentation still exist (see the table below), but the GitPitch links will no longer work.
 
-It was also presented at DDD East Anglia on 16th September 2017.  You can find the slides here:
+If you are interested in viewing the slides for a specific version of the talk, you can use the links in the table below.
 
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gep13/GitHubReleaseDemos/dddeastanglia2017)
+| Date                     | Conference/User Group                                      | Code                                                                                                      | Slides                                                                                                                                                                                                                                  |
+|--------------------------|------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 10th June 2017           | [DDD Reading](https://developerdeveloperdeveloper.com/)    | [ddd12 tag](https://github.com/gep13-talks/GitHubReleaseDemos/releases/tag/ddd12)                         | [PDF](https://github.com/gep13-talks/GitHubReleaseDemos/blob/e367af566ed8078de7104a013dca393f38f29e4a/PITCHME.pdf) [PPTX](https://github.com/gep13-talks/GitHubReleaseDemos/blob/e367af566ed8078de7104a013dca393f38f29e4a/PITCHME.pptx) |
+| 16th September 2017      | [DDD East Anglia 2017](https://www.dddeastanglia.com/)     | [dddeastanglia2017 tag](https://github.com/gep13-talks/GitHubReleaseDemos/releases/tag/dddeastanglia2017) | [PDF](https://github.com/gep13-talks/GitHubReleaseDemos/blob/37dc0610fea3444728dd2a9ccdef1f60797734dd/PITCHME.pdf) [PPTX](https://github.com/gep13-talks/GitHubReleaseDemos/blob/37dc0610fea3444728dd2a9ccdef1f60797734dd/PITCHME.pptx) |
 
-and a video recording of the session here:
 
-// TODO: Put link to video here
+## Recordings
+
+[![Control your GitHub Releases with GitVersion and GitReleaseManager](https://img.youtube.com/vi/SlM02V1tkSc/0.jpg)](https://www.youtube.com/watch?v=SlM02V1tkSc)

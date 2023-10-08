@@ -1,5 +1,5 @@
-Have you ever needed to control the version number of your open source application on GitHub? If so, you will likely know that it can be hard! You may have tried to use some form of auto incrementing number, or stored the version in a text file hoping that someone will remember to update it. Both of these approaches (and there are plenty others) will work, but they are fragile, and donít account for some of the more complicated scenarios.
+Have you ever been really excited about shipping a new version of your application, only to find out that you haven't done some of the administration "stuff" for it?
 
-And then, after controlling the version number, you then want to generate Release Notes for that newly released version.  How can you do this without manually trawling through the revision history?
+For example, understanding and documenting exactly what is included in the new release? Creating release notes for the end user, or even knowing what the "correct" next version number for the application should be!
 
-In this session, we will look at how we can improve the versioning strategy of your application using a combination of branching strategy (Gitflow), Semantic Versioning, an open source tool called GitVersion, and the commit history of your Git repository.  With the version number in place, we will then use the Issue and Milestone tracking functionality in GitHub to automatically generate a set of concise release notes using a tool called GitReleaseManager. 
+In this session, we will look at a series of different strategies, and tools, that can be used to aid in the complete application development and deployment lifecycle, in order to allow you to "just ship it"!

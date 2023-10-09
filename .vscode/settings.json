@@ -1,0 +1,9 @@
+{
+    "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+        "gitpitch",
+        "gitreleasemanager",
+        "gitversion",
+        "swetugg",
+        "zoomit"
+    ]
+}

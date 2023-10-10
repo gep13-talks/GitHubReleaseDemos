@@ -33,21 +33,21 @@ jobs:
       - name: Marp Build (README)
         uses: docker://marpteam/marp-cli:v3.0.2
         with:
-          args: presentation.md -o build/index.html
+          args: presentation.md -o build/index.html --html
         env:
           MARP_USER: root:root
 
       - name: Marp Build (README.pdf)
         uses: docker://marpteam/marp-cli:v3.0.2
         with:
-          args: presentation.md --allow-local-files -o build/presentation.pdf
+          args: presentation.md --allow-local-files -o build/presentation.pdf --html
         env:
           MARP_USER: root:root
 
       - name: Marp Build (README.pptx)
         uses: docker://marpteam/marp-cli:v3.0.2
         with:
-          args: presentation.md --allow-local-files -o build/presentation.pptx
+          args: presentation.md --allow-local-files -o build/presentation.pptx --html
         env:
           MARP_USER: root:root
 

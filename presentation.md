@@ -1,5 +1,6 @@
 ---
 marp: true
+size: 16:9
 theme: gaia
 _class: lead
 backgroundColor: #fff
@@ -9,18 +10,24 @@ style: |
     @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'
 ---
 
+<!--
+footer: ""
+-->
 # **Let's Ship This Thing! :rocket:**
 <span style="color:gray">By:</span> Gary Ewan Park
 
 
 ---
-<!-- paginate: true -->
-<!-- class: lead -->
+<!-- 
+paginate: true
+class: lead
+footer: @gep13
+-->
 # Slides
 
 https://gep13.me/ShipItSlides
 
-<i class="fa fa-plus-square fa-2x" aria-hidden="true"></i>
+<i class="fa fa-plus-square fa-2x" style="color:#e67d23" aria-hidden="true"></i>
 
 # Code
 
@@ -40,7 +47,7 @@ https://gep13.me/ShipItCode
 ![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
 
 #### What is
-## Semantic Versioning<i class="fa fa-question" aria-hidden="true"></i>
+<h1 style="color:#e67d23"> Semantic Versioning<i class="fa fa-question fa-bold" aria-hidden="true"></i></h1>
 
 ---
 <!--
@@ -80,12 +87,41 @@ Additional labels for pre-release and build metadata are available as extensions
 ![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
 
 #### What
-## branching strategy
-### should I use<i class="fa fa-question" aria-hidden="true"></i>
+<h1 style="color:#e67d23">branching strategy</h1>
+
+### should I use<i class="fa fa-question fa-bold" aria-hidden="true"></i>
+
+---
+
+# GitHub Flow
+
+---
+
+<!--
+footer: <span style="color:gray">Image borrowed from the</span> [GitHub Flow Tutorial](https://guides.github.com/introduction/flow/)
+-->
+
+![](./assets/images/githubflow.png)
+
+---
+<!--
+footer: @gep13
+-->
+
+# GitFlow
+
+---
+
+<!--
+footer: <span style="color:gray">Image borrowed from </span> [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+-->
+
+![bg 40%](./assets/images/gitflow.png)
 
 ---
 <!--
 header: Q. What branching strategy should I use?
+footer: @gep13
 -->
 
 ![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
@@ -100,7 +136,7 @@ header: ""
 ![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
 
 #### What is
-## GitVersion<i class="fa fa-question" aria-hidden="true"></i>
+<h1 style="color:#E67D23">GitVersion<i class="fa fa-question fa-bold" aria-hidden="true"></i></h1>
 
 ---
 
@@ -128,7 +164,23 @@ header: ""
 ![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
 
 #### Why do I need
-## GitVersion<i class="fa fa-question" aria-hidden="true"></i>
+<h1 style="color:#E67D23">GitVersion<i class="fa fa-question fa-bold" aria-hidden="true"></i></h1>
+
+---
+
+![bg 75%](./assets/images/textfile.png)
+
+---
+
+![bg 75%](./assets/images/assemblyinfo.png)
+
+---
+
+![bg 75%](./assets/images/teamcitysetting.png)
+
+---
+
+## <!--fit-->?
 
 ---
 
@@ -149,7 +201,7 @@ header: ""
 ![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
 
 #### What is
-## GitReleaseManager<i class="fa fa-question" aria-hidden="true"></i>
+<h1 style="color:#E67D23">GitReleaseManager<i class="fa fa-question" aria-hidden="true"></i></h1>
 
 ---
 
@@ -177,27 +229,22 @@ header: ""
 <!--
 _backgroundColor: 
 -->
-## <!--fit -->Demo
+## <!-- fit -->Demo
 
 ---
 
-## Questions
-### Feel free to get in touch
-### Email: gep13@gep13.co.uk
-### Twitter: @gep13
-### Web: https://gep13.co.uk
+## <!-- fit -->Questions
 
 ---
 ![bg left:40%](./assets/images/gary-avatar.png)
 
 ## Gary Ewan Park
-### Principal Software Engineer<br/>Chocolatey Software, Inc
+<h4 style="color:#E67D23">Principal Software Engineer<br/>Chocolatey Software, Inc</h4>
 
-<i class="fa-brands fa-twitter"></i> Twitter: @gep13
-<i class="fa-brands fa-mastodon"></i> Mastodon: 
-<i class="fa-brands fa-linkedin"></i> LinkedIn: 
-<i class="fa fa-window-maximize"></i> Blog: https://gep13.co.uk
-<i class="fa-brands fa-github"></i> GitHub: [gep13](https://github.com/gep13)
+- <i class="fa-brands fa-twitter"></i> Twitter: [@gep13](https://twitter.com/gep13)
+- <i class="fa-brands fa-mastodon"></i> Mastodon: [@gep13@mastodon.social](https://mastodon.social/@gep13)
+- <i class="fa fa-window-maximize"></i> Blog: https://gep13.co.uk
+- <i class="fa-brands fa-github"></i> GitHub: [gep13](https://github.com/gep13)
 
 ---
 ## Learn More

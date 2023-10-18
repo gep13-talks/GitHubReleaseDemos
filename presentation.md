@@ -105,6 +105,10 @@ backgroundColor: #fff
 
 ---
 
+<!--
+header: ""
+-->
+
 ![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
 
 #### What is

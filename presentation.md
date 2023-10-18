@@ -2,7 +2,7 @@
 marp: true
 size: 16:9
 theme: gaia
-_class: lead
+class: lead
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 footer: @gep13
@@ -13,16 +13,27 @@ style: |
 <!--
 footer: ""
 -->
+
 # **Let's Ship This Thing! :rocket:**
 <span style="color:gray">By:</span> Gary Ewan Park
 
+<!--
+- We have all been here
+- We are excited to ship the next version
+  - What is in it?
+  - What problems have we solved?
+  - What bugs have we addressed?
+  - What features are we excited about shipping?
+  - How do we communicate these to our end users?
+-->
 
 ---
-<!-- 
+
+<!--
+footer: "@gep13"
 paginate: true
-class: lead
-footer: @gep13
 -->
+
 # Slides
 
 https://gep13.me/ShipItSlides
@@ -33,23 +44,74 @@ https://gep13.me/ShipItSlides
 
 https://gep13.me/ShipItCode
 
+<!--
+- Cake build script sample for running GitVersion and GitReleaseManager is in the repository
+-->
+
 ---
+
 # Agenda
----
+
+* What is an issue?
 * What is Semantic Versioning?
 * What branching strategy should I use?
 * What is GitVersion?
-* Why do I need GitVersion?
 * What is GitReleaseManager?
-* Putting it all together...
+
+<!--
+- Fundamental principal - traceability and communication
+  - What version number does it have?
+  - What issues/pull requests are associated with it?
+-->
 
 ---
+
+![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
+
+#### What is an
+<h1 style="color:#e67d23"> issue<i class="fa fa-question fa-bold" aria-hidden="true"></i></h1>
+
+---
+
+<!--
+footer: ""
+paginate: false
+backgroundImage: ""
+backgroundColor: #f5f5dc
+-->
+
+## <!-- fit -->Demo
+
+<!--
+- Single point of truth for information
+  - Both for developers and users
+  - Where we can trace changes associated with the issue
+  - Where we can communicate changes about the issue
+-->
+
+---
+
+<!--
+header: Q. What is an issue?
+footer: "@gep13"
+paginate: true
+backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundColor: #fff
+-->
+
+![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
+
+#### <i class="fa fa-quote-left" aria-hidden="true"></i> ...it is the starting point for all work undertaken in a product release.
+
+---
+
 ![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
 
 #### What is
 <h1 style="color:#e67d23"> Semantic Versioning<i class="fa fa-question fa-bold" aria-hidden="true"></i></h1>
 
 ---
+
 <!--
 header: Q. What is Semantic Versioning?
 -->
@@ -58,11 +120,17 @@ header: Q. What is Semantic Versioning?
 
 #### <i class="fa fa-quote-left" aria-hidden="true"></i> ...a simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on, but not necessarily limited to, pre-existing widespread common practices in use in both closed and open-source software.
 
+<!--
+- Loaded topic - large discussion
+- Not going into the details
+-->
+
 ---
 
 <!--
 header: ""
 -->
+
 ## The Rules
 
 Given a version number MAJOR.MINOR.PATCH, increment the:
@@ -73,17 +141,64 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
+<!--
+- A semantic version number expresses the intention of the release
+- What has changed since the last version
+-->
+
 ---
 
 ## Examples
 
-- 0.1.0
-- 0.3.13
-- 1.0.0
-- 0.2.0-unstable3
-- 0.2.0-unstable.3+Branch.develop.Sha.e6eb071cd30974b80d7e237b85e7729a1d791e1e
+* 0.1.0
+* 0.3.13
+* 1.0.0
+* 0.2.0-unstable3
+* 0.2.0-unstable.3+Branch.develop.Sha.e6eb071cd30974b80d7e237b85e7729a1d791e1e
+
+<!--
+- Final example here has ALL information needed for the purposes of traceability
+- Most common to have both a "short" version for normal usage, and use the full version as an informational version
+-->
 
 ---
+
+![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
+
+#### How do you know
+<h1 style="color:#e67d23">when to bump</h1>
+
+### a version number<i class="fa fa-question fa-bold" aria-hidden="true"></i>
+
+---
+
+# Tools
+
+* [PublicApiGenerator](https://www.nuget.org/packages/PublicApiGenerator)
+* [Microsoft.CodeAnalysis.PublicApiAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.PublicApiAnalyzers)
+
+<!--
+- There is no magic bullet here
+- These tools definitely help in keeping you "honest" about the changes going into a given release
+- There may be marketing reasons why a certain version number is needed
+-->
+
+---
+
+<!--
+header: Q. How do you know when to bump a version number?
+-->
+
+![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
+
+##### There is no quick answer 😿
+
+---
+
+<!--
+header: ""
+-->
+
 ![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
 
 #### What
@@ -91,44 +206,107 @@ Additional labels for pre-release and build metadata are available as extensions
 
 ### should I use<i class="fa fa-question fa-bold" aria-hidden="true"></i>
 
+<!--
+- Again a loaded topic
+-->
+
 ---
 
 # GitHub Flow
 
+<!--
+- This is the simpler of the two strategies that I am going to show
+-->
+
 ---
 
 <!--
-footer: <span style="color:gray">Image borrowed from the</span> [GitHub Flow Tutorial](https://guides.github.com/introduction/flow/)
+footer: <span style="color:gray">Images borrowed from the</span> [GitHub Flow Tutorial](https://guides.github.com/introduction/flow/)
 -->
+
+##### Create a branch
 
 ![](./assets/images/githubflow.png)
 
 ---
-<!--
-footer: @gep13
--->
 
-# GitFlow
+##### Add commits
+
+![](./assets/images/githubflow_2.png)
+
+---
+
+##### Open a Pull Request
+
+![](./assets/images/githubflow_3.png)
+
+---
+
+##### Discuss and review your code
+
+![](./assets/images/githubflow_4.png)
+
+---
+
+##### Deploy
+
+![](./assets/images/githubflow_5.png)
+
+---
+
+##### Merge
+
+![](./assets/images/githubflow_6.png)
 
 ---
 
 <!--
-footer: <span style="color:gray">Image borrowed from </span> [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+footer: "@gep13"
+-->
+
+# GitFlow
+
+<!--
+- This is the more complicated strategy, but also the one that I prefer
+-->
+
+---
+
+<!--
+footer: <span style="color:gray">Images borrowed from </span> [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 -->
 
 ![bg 40%](./assets/images/gitflow.png)
 
 ---
+
+![bg 15%](./assets/images/gitflow_2.png)
+
+<!--
+- Even though it appears more complicated
+- Once you break it down, the process is very similar to GitHub Flow
+  - If you squint your eyes a bit!
+-->
+
+---
+
 <!--
 header: Q. What branching strategy should I use?
-footer: @gep13
+footer: "@gep13"
 -->
 
 ![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
 
-#### It depends!
+#### It depends! 🤷
+
+<!--
+- Again, there is no magic bullet
+- Pick the workflow that works for your team
+- Document it, so that everyone knows what to expect
+-->
 
 ---
+
 <!--
 header: ""
 -->
@@ -148,17 +326,32 @@ header: Q. What is GitVersion?
 
 #### <i class="fa fa-quote-left" aria-hidden="true"></i>...a tool to help you achieve Semantic Versioning on your project.
 
----
-
 <!--
-header: ""
+- .Net Framework
+- .Net Global Tool
+- GitHub Action
+- Doesn't help you decide when a version number need to change
 -->
 
-## Ok, but really what is it?
-
 ---
+
 <!--
 header: ""
+footer: ""
+paginate: false
+backgroundImage: ""
+backgroundColor: #f5f5dc
+-->
+
+## <!-- fit -->Demo
+
+---
+
+<!--
+footer: "@gep13"
+paginate: true
+backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundColor: #fff
 -->
 
 ![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
@@ -178,9 +371,17 @@ header: ""
 
 ![bg 75%](./assets/images/teamcitysetting.png)
 
+<!--
+- This couples you to a CI system
+-->
+
 ---
 
 ## <!--fit-->?
+
+<!--
+- No idea what the version number is
+-->
 
 ---
 
@@ -211,24 +412,25 @@ header: Q. What is GitReleaseManager?
 
 ![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
 
-#### <i class="fa fa-quote-left" aria-hidden="true"></i> a tool that will help create a set of release notes for your application/product. It does this using the collection of issues which are stored on the GitHub Issue Tracker for your application/product.
+#### <i class="fa fa-quote-left" aria-hidden="true"></i> a tool that will help create, and manage, a release for your application/product.
+
+<!--
+- Started out as a tool from Particular
+- .Net Framework
+- .Net Global Tool
+- GitHub Action
+-->
 
 ---
 
 <!--
 header: ""
+footer: ""
+paginate: false
+backgroundImage: ""
+backgroundColor: #f5f5dc
 -->
 
-## Ok, but really what is it?
-
----
-
-## Putting is all together...
-
----
-<!--
-_backgroundColor: 
--->
 ## <!-- fit -->Demo
 
 ---
@@ -236,6 +438,14 @@ _backgroundColor:
 ## <!-- fit -->Questions
 
 ---
+
+<!--
+footer: "@gep13"
+paginate: true
+backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundColor: #fff
+-->
+
 ![bg left:40%](./assets/images/gary-avatar.png)
 
 ## Gary Ewan Park
@@ -247,14 +457,13 @@ _backgroundColor:
 - <i class="fa-brands fa-github"></i> GitHub: [gep13](https://github.com/gep13)
 
 ---
+
 ## Learn More
 
 - GitVersion Documentation
   - https://gitversion.net/docs/
 - GitReleaseManager Documentation
   - https://gittools.github.io/GitReleaseManager/docs/
-- .Net Rocks Episode with Jake Ginnivan
-  - https://www.dotnetrocks.com/default.aspx?showNum=1178
 - Git Branching Strategies
   - https://www.atlassian.com/git/tutorials/comparing-workflows
 - GitFlow

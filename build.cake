@@ -1,6 +1,5 @@
-#module nuget:?package=Cake.DotNetTool.Module&version=0.4.0
-#tool dotnet:?package=GitVersion.Tool&version=5.3.7
-#tool dotnet:?package=GitReleaseManager.Tool&version=0.11.0
+#tool dotnet:?package=GitVersion.Tool&version=5.12.0
+#tool dotnet:?package=GitReleaseManager.Tool&version=0.15.0
 
 var target = Argument("target", "Default");
 GitVersion assertedVersions;

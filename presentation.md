@@ -446,7 +446,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 backgroundColor: #fff
 -->
 
-![bg left:40%](./assets/images/gary-avatar.png)
+![bg left:40%](./assets/images/gary-avatar.jpeg)
 
 ## Gary Ewan Park
 <h4 style="color:#E67D23">Principal Software Engineer<br/>Chocolatey Software, Inc</h4>

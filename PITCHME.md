@@ -367,7 +367,7 @@ Senior Software Engineer @<br> Chocolatey Software
 
 [drop=right]
 
-![Gary Ewan Park](assets/images/gary-avatar.png)
+![Gary Ewan Park](assets/images/gary-avatar.jpeg)
 
 Gary Ewan Park
 

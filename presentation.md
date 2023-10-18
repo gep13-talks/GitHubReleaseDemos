@@ -4,7 +4,7 @@ size: 16:9
 theme: gaia
 class: lead
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url('./assets/images/hero-background.svg')
 footer: @gep13
 style: |
     @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'
@@ -68,7 +68,7 @@ https://gep13.me/ShipItCode
 
 ---
 
-![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
+![bg left:33%](./assets/images/Q.png)
 
 #### What is an
 <h1 style="color:#e67d23"> issue<i class="fa fa-question fa-bold" aria-hidden="true"></i></h1>
@@ -97,11 +97,11 @@ backgroundColor: #f5f5dc
 header: Q. What is an issue?
 footer: "@gep13"
 paginate: true
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url('./assets/images/hero-background.svg')
 backgroundColor: #fff
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
+![bg left:33%](./assets/images/A.png)
 
 #### <i class="fa fa-quote-left" aria-hidden="true"></i> ...it is the starting point for all work undertaken in a product release.
 
@@ -111,7 +111,7 @@ backgroundColor: #fff
 header: ""
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
+![bg left:33%](./assets/images/Q.png)
 
 #### What is
 <h1 style="color:#e67d23"> Semantic Versioning<i class="fa fa-question fa-bold" aria-hidden="true"></i></h1>
@@ -122,7 +122,7 @@ header: ""
 header: Q. What is Semantic Versioning?
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
+![bg left:33%](./assets/images/A.png)
 
 #### <i class="fa fa-quote-left" aria-hidden="true"></i> ...a simple set of rules and requirements that dictate how version numbers are assigned and incremented. These rules are based on, but not necessarily limited to, pre-existing widespread common practices in use in both closed and open-source software.
 
@@ -169,7 +169,7 @@ Additional labels for pre-release and build metadata are available as extensions
 
 ---
 
-![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
+![bg left:33%](./assets/images/Q.png)
 
 #### How do you know
 <h1 style="color:#e67d23">when to bump</h1>
@@ -195,7 +195,7 @@ Additional labels for pre-release and build metadata are available as extensions
 header: Q. How do you know when to bump a version number?
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
+![bg left:33%](./assets/images/A.png)
 
 ##### There is no quick answer 😿
 
@@ -205,7 +205,7 @@ header: Q. How do you know when to bump a version number?
 header: ""
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
+![bg left:33%](./assets/images/Q.png)
 
 #### What
 <h1 style="color:#e67d23">branching strategy</h1>
@@ -301,7 +301,7 @@ header: Q. What branching strategy should I use?
 footer: "@gep13"
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
+![bg left:33%](./assets/images/A.png)
 
 #### It depends! 🤷
 
@@ -317,7 +317,7 @@ footer: "@gep13"
 header: ""
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
+![bg left:33%](./assets/images/Q.png)
 
 #### What is
 <h1 style="color:#E67D23">GitVersion<i class="fa fa-question fa-bold" aria-hidden="true"></i></h1>
@@ -328,7 +328,7 @@ header: ""
 header: Q. What is GitVersion?
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
+![bg left:33%](./assets/images/A.png)
 
 #### <i class="fa fa-quote-left" aria-hidden="true"></i>...a tool to help you achieve Semantic Versioning on your project.
 
@@ -356,11 +356,11 @@ backgroundColor: #f5f5dc
 <!--
 footer: "@gep13"
 paginate: true
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url('./assets/images/hero-background.svg')
 backgroundColor: #fff
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
+![bg left:33%](./assets/images/Q.png)
 
 #### Why do I need
 <h1 style="color:#E67D23">GitVersion<i class="fa fa-question fa-bold" aria-hidden="true"></i></h1>
@@ -395,7 +395,7 @@ backgroundColor: #fff
 header: Q. Why do I need GitVersion?
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
+![bg left:33%](./assets/images/A.png)
 
 ### To make version assertion reliable and consistent
 
@@ -405,7 +405,7 @@ header: Q. Why do I need GitVersion?
 header: ""
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/000/fff/?text=Q)
+![bg left:33%](./assets/images/Q.png)
 
 #### What is
 <h1 style="color:#E67D23">GitReleaseManager<i class="fa fa-question" aria-hidden="true"></i></h1>
@@ -416,7 +416,7 @@ header: ""
 header: Q. What is GitReleaseManager?
 -->
 
-![bg left:33%](https://fakeimg.pl/800x600/add8e6/fff/?text=A)
+![bg left:33%](./assets/images/A.png)
 
 #### <i class="fa fa-quote-left" aria-hidden="true"></i> a tool that will help create, and manage, a release for your application/product.
 
@@ -448,7 +448,7 @@ backgroundColor: #f5f5dc
 <!--
 footer: "@gep13"
 paginate: true
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url('./assets/images/hero-background.svg')
 backgroundColor: #fff
 -->
 

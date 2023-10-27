@@ -34,17 +34,32 @@ footer: ""
 <!--
 footer: "@gep13"
 paginate: true
+style: |
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
 -->
+
+<div class="columns">
+<div>
 
 # Slides
 
 https://gep13.me/ShipItSlides
+<img src="./assets/images/qr-ShipItSlides.png">
 
-<i class="fa fa-plus-square fa-2x" style="color:#e67d23" aria-hidden="true"></i>
+</div>
+<div>
 
 # Code
 
 https://gep13.me/ShipItCode
+<img src="./assets/images/qr-ShipItCode.png">
+
+</div>
+</div>
 
 <!--
 - Cake build script sample for running GitVersion and GitReleaseManager is in the repository
@@ -103,7 +118,7 @@ backgroundColor: #fff
 
 ![bg left:33%](./assets/images/A.png)
 
-#### <i class="fa fa-quote-left" aria-hidden="true"></i> ...it is the starting point for all work undertaken in a product release.
+#### <i class="fa fa-quote-left" aria-hidden="true"></i> ...it is the focal point for work undertaken on a particular task/bug/feature in a product release.
 
 ---
 
@@ -159,8 +174,8 @@ Additional labels for pre-release and build metadata are available as extensions
 * 0.1.0
 * 0.3.13
 * 1.0.0
-* 0.2.0-unstable3
-* 0.2.0-unstable.3+Branch.develop.Sha.e6eb071cd30974b80d7e237b85e7729a1d791e1e
+* 0.2.0-alpha.3
+* 0.2.0-alpha.3+Branch.develop.Sha.e6eb071cd30974b80d7e237b85e7729a1d791e1e
 
 <!--
 - Final example here has ALL information needed for the purposes of traceability
@@ -441,10 +456,6 @@ backgroundColor: #f5f5dc
 
 ---
 
-## <!-- fit -->Questions
-
----
-
 <!--
 footer: "@gep13"
 paginate: true
@@ -463,6 +474,25 @@ backgroundColor: #fff
 - <i class="fa-brands fa-github"></i> GitHub: [gep13](https://github.com/gep13)
 
 ---
+
+<!--
+header: ""
+footer: ""
+paginate: false
+backgroundImage: ""
+backgroundColor: #f5f5dc
+-->
+
+## <!-- fit -->Questions
+
+---
+
+<!--
+footer: "@gep13"
+paginate: true
+backgroundImage: url('./assets/images/hero-background.svg')
+backgroundColor: #fff
+-->
 
 ## Learn More
 

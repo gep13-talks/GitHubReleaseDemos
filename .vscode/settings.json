@@ -6,5 +6,6 @@
         "marp",
         "swetugg",
         "zoomit"
-    ]
+    ],
+    "markdown.marp.enableHtml": true
 }

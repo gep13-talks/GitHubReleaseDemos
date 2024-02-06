@@ -6,9 +6,11 @@ class: lead
 backgroundColor: #fff
 backgroundImage: url('./assets/images/hero-background.svg')
 footer: @gep13
-style: |
-    @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'
 ---
+
+<style>
+    @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'
+</style>
 
 <!--
 footer: ""

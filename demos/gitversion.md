@@ -24,7 +24,6 @@
 * Make a commit
 * Run GitVersion again, show again how it is tracking the version number
 
-
 ### Demo 4 - Merge into master
 
 * Check out master branch

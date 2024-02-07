@@ -20,7 +20,6 @@
 * Run `./build.ps1 --target=AttachArtifact`
 * Switch back to browser and show attachment
 
-
 ### Demo 3 - Close milestone
 
 * In the browser, switch to milestone view, and show that it is still open

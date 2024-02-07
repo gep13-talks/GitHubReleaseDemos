@@ -435,7 +435,7 @@ header: Q. What is GitReleaseManager?
 
 ![bg left:33%](./assets/images/A.png)
 
-#### <i class="fa fa-quote-left" aria-hidden="true"></i> a tool that will help create, and manage, a release for your application/product.
+#### <i class="fa fa-quote-left" aria-hidden="true"></i>...a tool that will help create, and manage, a release for your application/product.
 
 <!--
 - Started out as a tool from Particular

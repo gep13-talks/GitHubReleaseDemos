@@ -9,7 +9,7 @@ footer: @gep13
 ---
 
 <style>
-    @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'
+    @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css'
 </style>
 
 <!--
@@ -39,6 +39,9 @@ footer: ""
 height:400px](./assets/images/scottish-flag.png)
 
 ---
+
+![drop-shadow
+height:400px](./assets/images/mssucks.jpg)
 
 ---
 
@@ -480,7 +483,7 @@ backgroundColor: #fff
 <h4 style="color:#E67D23">Principal Software Engineer<br/>Chocolatey Software, Inc</h4>
 
 - <i class="fa-brands fa-twitter"></i> Twitter: [@gep13](https://twitter.com/gep13)
-- <i class="fa-brands fa-mastodon"></i> Mastodon: [@gep13@mastodon.social](https://mastodon.social/@gep13)
+- <i class="fa-brands fa-bluesky"></i> Bluesky: [@gep13.co.uk](https://bsky.app/profile/gep13.co.uk)
 - <i class="fa fa-window-maximize"></i> Blog: https://gep13.co.uk
 - <i class="fa-brands fa-github"></i> GitHub: [gep13](https://github.com/gep13)
 

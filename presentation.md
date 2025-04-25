@@ -33,6 +33,15 @@ footer: ""
 
 ---
 
+# Hello! I'm Scottish!
+
+![drop-shadow
+height:400px](./assets/images/scottish-flag.png)
+
+---
+
+---
+
 <!--
 footer: "@gep13"
 paginate: true

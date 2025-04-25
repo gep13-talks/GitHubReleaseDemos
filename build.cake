@@ -1,5 +1,5 @@
 #tool dotnet:?package=GitVersion.Tool&version=5.12.0
-#tool dotnet:?package=GitReleaseManager.Tool&version=0.15.0
+#tool dotnet:?package=GitReleaseManager.Tool&version=0.20.0
 
 var target = Argument("target", "Default");
 GitVersion assertedVersions;

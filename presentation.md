@@ -19,7 +19,7 @@ footer: ""
 # **Let's Ship This Thing! :rocket:**
 <span style="color:gray">By:</span> Gary Ewan Park
 <br />
-![drop-shadow height:150px](./assets/images/swetugg-stockholm.png)
+![drop-shadow height:150px](./assets/images/dddsw-2025.jpg)
 
 <!--
 - We have all been here

@@ -88,6 +88,7 @@ https://gep13.me/ShipItCode
 * What branching strategy should I use?
 * What is GitVersion?
 * What is GitReleaseManager?
+* Questions
 
 <!--
 - Fundamental principal - traceability and communication

@@ -25,4 +25,10 @@ If you are interested in viewing the slides for a specific version of the talk, 
 
 ## Recordings
 
+### DDD Reading
+
 [![Control your GitHub Releases with GitVersion and GitReleaseManager](https://img.youtube.com/vi/SlM02V1tkSc/0.jpg)](https://www.youtube.com/watch?v=SlM02V1tkSc)
+
+### Hacktoberfest Scotland 2020
+
+[![Control your GitHub Releases with GitVersion and GitReleaseManager](https://img.youtube.com/vi/o1gmCLe6mfA/hqdefault.jpg)](https://youtu.be/SlM02V1tkSc?si=3zUv612Y0vkJY_lI)
